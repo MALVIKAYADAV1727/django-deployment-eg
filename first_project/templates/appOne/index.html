@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Django Radha Krishna Page</title>
+    <link rel="stylesheet" href='{% static 'css/mystyle.css'%}' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+          <h1>Go to /formN to fill the form</h1>
+      </div>
+
+    </div>
+    
+  <!-- #  {{ insert_me }} -->
+    <!-- <h1>hello this is a picture of Radha Krishna</h1> -->
+    <!-- <img src="{% static 'images/RadhaKrishna.jpg'%}" alt="Radha Krishna"> -->
+    <!-- <h1>Here are your access records</h1>
+
+    <div class="djanotwo">
+      {% if access_records %}
+         <table>
+           <thead>
+             <th>Site Name</th>
+             <th>Date accessed</th>
+           </thead>
+           {% for acc in access_records %}
+              <tr>
+                <td>{{ acc.name }}</td>
+                <td>{{ acc.date }}</td>
+              </tr>
+            {% endfor %}
+         </table>
+        {% else %}
+        <p> NO ACCESS RECORDS FOUND!! </p>
+        {% endif %}
+
+    </div> -->
+
+
+  </body>
+</html>
